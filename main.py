@@ -13,7 +13,7 @@ except FileNotFoundError:
 else:
     french2eng = data.to_dict(orient="records")
 
-
+# khswkljwk
 def next_card():
     # Making it global to acceess this outside next_card()
     global current_card, flip_timer
